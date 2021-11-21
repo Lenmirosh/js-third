@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script > 
+    document.write( `Задача 1`);
  const array = [
         'каждый',
         'охотник',
@@ -16,15 +17,29 @@
         'фазан' // 6
     ];
 
-    for (let i = 6; i >=0; i--) {
+    for (let i = array.length-1; i >=0; i--) {
         document.write(`<div>${array[i]}</div>`);
      }
- 
+    document.write(`Задача 2`);
+    
 
-    for (let i = 0; i < 7; i++) {
+    for (let i = 0; i < array.length; i++) {
         if (i % 3!=0) continue;
         document.write(`<div>${array[i]}</div>`);
     }
+let title= 'Задача 3'
+    document.write(title);
+
+    //  for (let i = 0; i < array.length; i++ ) {
+    //      if (i%2); { 
+    //          document.write(`<div>${array[i]}</div>`);
+    //         }
+    //     else {
+    //         document.write(`<div>${array[i]}</div>`);
+    //     }
+    //  }
+    
+    
     </script>
 
 </head>
@@ -32,3 +47,5 @@
     
 </body>
 </html>
+
+    
